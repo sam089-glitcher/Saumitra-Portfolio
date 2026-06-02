@@ -100,12 +100,12 @@ body {
 .display-title {
   font-size: clamp(4.7rem, 12vw, 12.5rem);
   font-weight: 950;
-  line-height: 0.78;
-  letter-spacing: -0.075em;
+  line-height: 0.84;
+  letter-spacing: -0.025em;
   text-transform: uppercase;
-  transform: scaleX(0.72);
+  transform: scaleX(0.86);
   transform-origin: left center;
-  width: 138%;
+  width: 116%;
 }
 
 .section-kicker,
@@ -149,6 +149,6 @@ body {
 @media (max-width: 768px) {
   .display-title {
     font-size: clamp(4rem, 21vw, 7rem);
-    letter-spacing: -0.07em;
+    letter-spacing: -0.018em;
   }
 }
